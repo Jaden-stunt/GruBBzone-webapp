@@ -1,0 +1,141 @@
+body { font-family: Arial; background: #f4f4f4; margin: 0; }
+
+.vendor-modal {
+  display: none;
+  position: fixed;
+  z-index: 1003;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.close-button {
+  float: right;
+  font-size: 1.8em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-item {
+  margin: 15px 0;
+}
+
+.qty-input {
+  width: 60px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.menu-total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+.vendor-card {
+  background-color: #e6f9f0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.vendor-card:hover {
+  transform: scale(1.03);
+}
+
+.vendor-name {
+  font-size: 1.1em;
+}
+
+.vendor-rating {
+  font-size: 0.95em;
+  color: #ffb400;
+}
+
+.vendor-time {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 4px;
+}
+
+
+.addon {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.addon-checkbox {
+  margin-right: 5px;
+}
+
+
+.addon-qty-input {
+  width: 60px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+
+.main-addon-toggle {
+  margin-right: 5px;
+}
+
+.main-addon-qty {
+  width: 60px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+
+.order-summary {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.order-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-summary li {
+  margin: 8px 0;
+}
+
+
+#placeOrderBtn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #1db954;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#placeOrderBtn:hover {
+  background-color: #159a44;
+}
